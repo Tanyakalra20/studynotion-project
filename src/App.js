@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import Dashboard from "./pages/Dashboard"
-import { Route,Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import PrivateRoute from "./components/PrivateRoute";
 
